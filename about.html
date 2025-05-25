@@ -4,7 +4,90 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>公司簡介</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* 基本設定 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Noto Sans TC", sans-serif;
+      line-height: 1.6;
+      background-color: #f4f7f5;
+      color: #333;
+      padding: 20px;
+    }
+
+    /* 標題區域 */
+    header {
+      background-color: #2e7d32;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 2rem;
+    }
+
+    /* 導覽列 */
+    nav {
+      background-color: #e8f5e9;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 10px 0;
+      margin-bottom: 30px;
+      border-bottom: 2px solid #c8e6c9;
+    }
+
+    nav a {
+      color: #2e7d32;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #1b5e20;
+    }
+
+    /* 主內容 */
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    /* 卡片樣式 */
+    .card {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    }
+
+    .card h2 {
+      color: #2e7d32;
+      margin-bottom: 15px;
+    }
+
+    .card p {
+      margin-bottom: 15px;
+      font-size: 1rem;
+    }
+
+    /* 頁尾 */
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      text-align: center;
+      color: #999;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -26,7 +109,7 @@
   </main>
 
   <footer>
-    &copy; 益居企業有限公司
+    &copy; 益居企業有限公司｜60795324
   </footer>
 </body>
 </html>
